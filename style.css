@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+  margin:13px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 100vh;
+  background-color:#42324D;
+}
+#home-body{
+  background-color:#42324D
+}
+#calculator{
+  margin:20px auto;
+  font-family: "Iosevka Charon",cursive;
+  background-color: #C88DC5;
+  border-radius:15px;
+  max-width:500px;
+  overflow:hidden;
+}
+#display{
+  width:85%;
+  height:150px;
+  position:relative;
+  top:10px;
+  left:10px;
+  padding:20px;
+  font-size:5rem;
+  text-align:left;
+  background-color:#E9C5DA;
+  color:black;
+  border: 8px solid #E9C5DA;
+  border-radius:15px;
+}
+button,
+input{
+  font-family: inherit;
+}
+#keys{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  padding:25px;
+}
+button{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color:#E9C5DA;
+  color:black;
+  font-size: 3rem;
+  font-weight:bold;
+  cursor:pointer;
+}
+button:hover{
+  background-color:#E98AC1;
+}
+button:active{
+  background-color:#F47AC1;
+}
+.operator-btn{
+  background-color:#CCEDE3;
+}
+.operator-btn:hover{
+  background-color:#C1F6E5;
+}
+.operator-btn:active{
+  background-color:#AFFBE3;
+}
+#home{
+  position:absolute;
+  top:653px;
+  left:1185px;
+}
+#heart{
+  position:absolute;
+  top:462px;
+  left:192px;
+}
+#star{
+  position:absolute;
+  top:23px;
+  left:1104px;
+}
+#smallstar{
+  position:absolute;
+  top:733px;
+  left:128px;
+}
+#ugot{
+  position:absolute;
+  top:143px;
+  left:94px;
+}
+#sticker{
+  position:absolute;
+  top:367px;
+  left:1014px;
+}
